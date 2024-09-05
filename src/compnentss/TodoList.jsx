@@ -10,6 +10,7 @@ import TodoItem from "./todoItem";
                     return(
                         <TodoItem key={todoItem.id} 
                         text={todoItem.text} 
+                        id={todoItem.id}
                         isComleted={todoItem.comleted} />
                     )
                 })}
